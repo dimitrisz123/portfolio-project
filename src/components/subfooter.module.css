@@ -1,0 +1,43 @@
+.subfooter_details {
+  width: 97.1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6.9rem;
+  border-bottom: 0.1rem solid #f1f1f1;
+}
+
+.subfooter_details > h1 {
+  margin-bottom: 1.1rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  color: #3d5154;
+}
+
+.subfooter_details > p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.466;
+  /* identical to box height, or 147% */
+
+  color: #3d5154;
+}
+
+.subfooter_details > p:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+p > span {
+  margin-left: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  color: #30aabc;
+}

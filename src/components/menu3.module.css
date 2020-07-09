@@ -1,0 +1,139 @@
+.container {
+  padding-top: 13.5rem;
+  position: relative;
+  background-color: #fcfdfe;
+  /* clip-path: ellipse(50% 62% at 50% 0%); */
+}
+
+.container:after {
+  content: "";
+  position: absolute;
+  bottom: 1;
+  right: 0;
+  left: 0;
+  height: 100px;
+  background-color: #fcfdfe;
+
+  clip-path: ellipse(51% 60% at 50% 0%);
+}
+
+.wrapper {
+  max-width: 101.6rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scissors_icon {
+  width: 5.4rem;
+  height: auto;
+  margin-bottom: 2.8rem;
+}
+
+.engagement_buttom {
+  margin-bottom: 1.4rem;
+  border-radius: 2px;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #82b5a5;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.166;
+  /* identical to box height */
+
+  color: #82b5a5;
+}
+
+.heading3 {
+  margin-bottom: 3.2rem;
+  text-align: center;
+  max-width: 50.8rem;
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 1.178;
+
+  color: #000000;
+}
+
+.learn_more {
+  margin-bottom: 3.2rem;
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  color: #30aabc;
+}
+
+.learn_more span {
+  color: #30aabc;
+  margin-right: 1.4rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.642;
+  /* identical to box height, or 164% */
+}
+
+.learn_more img {
+  color: #30aabc;
+  height: 2.2rem;
+}
+
+.image_container {
+  max-width: "85.7rem";
+  margin-bottom: 4.3rem;
+}
+
+.image_container img {
+  width: 100%;
+  height: auto;
+}
+
+.features_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  flex: 0 1 28.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature_heading2 {
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 1.1818;
+
+  color: #000000;
+  margin-bottom: 1.1rem;
+}
+
+.feature_paragraph {
+  margin-bottom: 2.7rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.571;
+  /* or 157% */
+
+  color: #3d5154;
+}
+
+.learn_more_feature {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.learn_more_feature span {
+  margin-right: 1.4rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.642;
+  /* identical to box height, or 164% */
+
+  color: #000000;
+}
+
+.learn_more_feature img {
+  height: 2.2rem;
+}
